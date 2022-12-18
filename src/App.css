@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+
+.loc-select{
+  width: 300px; 
+  height: 45px;
+  
+}
+.search-box{
+  width: 600px;
+  height: 45px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sell{
+  border: 3px solid #ffa500;
+  background-color: white;
+  padding: 7px 12px;
+  color: #002f34;
+  text-align:center;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.load{
+  border: 2px solid #000;
+  background-color: white;
+  padding: 8px 20px;
+  color: #002f34;
+  text-align:center;
+}
+.footer{
+  background-color: #EAECEE  ;
+}
+.last-search{
+  background-color: #EAECEE ;
+}
+.small-text{
+  font-size: smaller;
+  color: #002f34;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.appstore{
+  width: 120px;
+}
+.olx-bottom{
+color: white;
+background-color: #132743;
+font-size: small;
+height: 50px;
+}
+.classified{
+  float: right;
+  font-weight: 500;
+}
+.countries{
+  display: inline;
+  font-weight: 500;
+  padding-right: 3px;
+ 
+}
+.slider{
+  background-color: black;
+}
+.bike{
+  max-width: 750px;
+  height: 450px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.price{
+    border: 1px solid grey;
+    height: 150px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.date{
+  float: right;
+}
+.heart{
+  
+  font-size: 20px;
+  float: right;
+}
+.profile{
+  width: 70px;
+}
+.seller{
+  border: 1px solid grey;
+  height: 250px;
+}
+.chevron{
+  font-size: larger;
+  margin-top: 25px;
+}
+.phone{
+  font-size: larger;
+  margin-top: 25px;
+  
+}
+.details{
+ 
+  border: 2px solid black;
+ 
+}
+.small{
+  line-height: 1.6;
+}
+.posted{
+  border: 1px solid grey;
+  height: 280px;
+  
 }
